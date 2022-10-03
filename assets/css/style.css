@@ -7,7 +7,7 @@
 }
 
 /* fontes  */
-@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,500;1,500&family=Roboto&family=Secular+One&family=Ubuntu&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,500;1,500&family=Roboto&family=Secular+One&family=Ubuntu&display=swap'); */
 
 /* reset  */
 html,body{
@@ -25,11 +25,4 @@ body{
     background-color: var(--pageBackground);
 }
 
-article{
-    margin: 20px;
-    box-shadow: 0 0 10px var(--shadows);
-    border-radius: 10px;
-    background-color: var(--cardBackground);
-    padding: 20px;
-}
 

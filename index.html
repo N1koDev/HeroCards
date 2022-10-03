@@ -4,17 +4,61 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/normalize.css">
   <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="assets/css/style2.css">
+  <link rel="stylesheet" href="assets/css/layout.css">
+  <link rel="stylesheet" href="assets/css/heroOne.css">
+  <link rel="stylesheet" href="">
+
   <title>HeroCards</title>
 </head>
+
 <body>
-  <section id="content">
+
+  <section class="heroesBox">
+
+    <article class="heroOne">
+      <img src="" class="heroOne__image" data-heroOne="imagem">
+      <h1 data-heroOne="name"></h1>
+      <p data-heroOne="intelligence"></p>
+      <p data-heroOne="strenght"></p>
+      <p data-heroOne="speed"></p>
+      <p data-heroOne="durability"></p>
+      <p data-heroOne="power"></p>
+      <p data-heroOne="combat"></p>
+      <br>
+      <p data-heroOne="total"></p>
+    </article>
+
+    <div class="versusBox">
+      <img src="assets/img/versus.gif" class="versus">
+      <h1 data-versus="result"></h1>
+    </div>
+
+    <article class="heroTwo">
+      <img src="" data-heroTwo="imagem">
+      <h1 data-heroTwo="name"></h1>
+      <p data-heroTwo="intelligence"></p>
+      <p data-heroTwo="strenght"></p>
+      <p data-heroTwo="speed"></p>
+      <p data-heroTwo="durability"></p>
+      <p data-heroTwo="power"></p>
+      <p data-heroTwo="combat"></p>
+      <br>
+      <p data-heroTwo="total"></p>
+    </article>
 
   </section>
-  
+
 </body>
 
-<script src="./assets/js/main.js"></script>
+
+<script src="./assets/js/heroAPI.js"></script>
+<script src="./assets/js/geraHero.js"></script>
+<script src="./assets/js/heroOne.js"></script>
+<script src="./assets/js/heroTwo.js"></script>
+<script src="./assets/js/versusCalc.js"></script>
+
 
 </html>
